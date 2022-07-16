@@ -56,6 +56,7 @@ function Signup() {
                 onChange={(e) => setName(e.target.value)}
                 value={name}
                 placeholder="Full Name"
+                required
               />
             </div>
 
@@ -66,6 +67,7 @@ function Signup() {
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
                 placeholder="Email"
+                required
               />
             </div>
 
@@ -76,6 +78,7 @@ function Signup() {
                 onChange={(e) => setPassword(e.target.value)}
                 value={password}
                 placeholder="Password"
+                required
               />
             </div>
             <button className="login-button" data-cy="submit" type="submit">Sign up</button>
