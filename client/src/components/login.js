@@ -48,6 +48,7 @@ function Login() {
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
                 placeholder="Email"
+                required
               />
             </div>
 
@@ -60,6 +61,7 @@ function Login() {
                 onChange={(e) => setPassword(e.target.value)}
                 value={password}
                 placeholder="Password"
+                required
               />
             </div>
 
