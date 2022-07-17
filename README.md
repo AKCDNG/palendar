@@ -127,7 +127,7 @@ npm start
 
 Please leave this terminal running in the background.
 
-### Start Client
+### Start Backend Server
 
 [You will need to also clone the palendar-backend repository on my profile here](https://github.com/AKCDNG/palendar-backend).
 Open a new terminal.
