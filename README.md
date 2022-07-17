@@ -89,7 +89,20 @@ You also have a choice of who you would like to include in the shared calendar, 
 
 ## Demo Photos
 
-< INSERT DEMO PHOTOS AND VIDEO >
+Homepage:
+![Homepage](readme_images/homepage.png)
+
+Sign up:
+![Sign Up](readme_images/signup.png)
+
+Login:
+![Login](readme_images/Login.png)
+
+Your personal calendar:
+![Personal Calendar](readme_images/Personal_calendar.png)
+
+The group calendar:
+![Group Calendar](readme_images/Group_calendar.png)
 
 ## Future Improvements
 
@@ -116,7 +129,7 @@ Please leave this terminal running in the background.
 
 ### Start Client
 
-[You will need to also clone the palendar-frontend repository on my profile here](https://github.com/AKCDNG/palendar-frontend).
+[You will need to also clone the palendar-backend repository on my profile here](https://github.com/AKCDNG/palendar-backend).
 Open a new terminal.
 
 ```
