@@ -1,5 +1,7 @@
 # Palendar
 
+https://thepalendar.netlify.app/
+
 ## Contributors
 
 * [Anish Kakaiya](https://github.com/AKCDNG)
@@ -43,10 +45,6 @@ You also have a choice of who you would like to include in the shared calendar, 
 - [Slack](https://slack.com/intl/en-gb/) | Communication tool.
 - [Miro](https://miro.com/) | Diagramming tool.
 - [Balsamiq](https://balsamiq.com/) | Wireframing tool.
-
-## Card wall
-
-< INSERT TRELLO BOARD IMAGE LATER >
 
 ## MVP, design and planning
 
@@ -95,7 +93,7 @@ You also have a choice of who you would like to include in the shared calendar, 
 
 ## Future Improvements
 
-< MAKE THIS APP >
+* Add the option to make friend requests.
 
 ## How to Run Locally
 
@@ -111,7 +109,6 @@ You also have a choice of who you would like to include in the shared calendar, 
 ### Start Server
 
 ```
-cd backend
 npm start
 ```
 
@@ -119,10 +116,10 @@ Please leave this terminal running in the background.
 
 ### Start Client
 
+[You will need to also clone the palendar-frontend repository on my profile here](https://github.com/AKCDNG/palendar-frontend).
 Open a new terminal.
 
 ```
-cd client
 npm start
 ```
 
