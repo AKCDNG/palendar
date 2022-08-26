@@ -46,22 +46,25 @@ const UserController = {
   },
 
   LoginUser: async (req, res) => {
-    const user = await User.findOne({
-      email: req.body.email,
-    });
-    const passwordCompare = await bcrypt.compare(req.body.password, user.password);
-
-    if (passwordCompare === true) {
-      const token = jwt.sign({
-        // eslint-disable-next-line no-underscore-dangle
-        user_id: user._id,
-        name: user.name,
-      }, 'secretPassword123');
-
-      return res.json({ status: 'ok', user: token });
+    try {
+      const user = await User.findOne({
+        email: req.body.email,
+      });
+      const passwordCompare = await bcrypt.compare(req.body.password, user.password);
+  
+      if (passwordCompare === true) {
+        const token = jwt.sign({
+          // eslint-disable-next-line no-underscore-dangle
+          user_id: user._id,
+          name: user.name,
+        }, 'secretPassword123');
+  
+        return res.json({ status: 'ok', user: token });
+      }
+      
+    } catch (error) {
+      return res.json({ status: 'error', user: false });
     }
-
-    return res.json({ status: 'error', user: false });
   },
 };
 
