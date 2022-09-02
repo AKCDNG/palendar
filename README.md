@@ -36,8 +36,8 @@ You also have a choice of who you would like to include in the shared calendar, 
 - [React Testing Library](https://testing-library.com/) | Frontend unit testing.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | Markup language.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | Style sheet language.
-- [bcrypt] (https://www.npmjs.com/package/bcrypt) | User password encryption and authentication.
-- [Cypress] (https://www.cypress.io/) | end to end testing.
+- [bcrypt](https://www.npmjs.com/package/bcrypt) | User password encryption and authentication.
+- [Cypress](https://www.cypress.io/) | end to end testing.
 
 ### Organisational & Planning Tools
 
